@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;/*por padrao é 16px*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #F5F5F5;
+}
+/*
+**********liks*********/
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #f7b600;
+
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#area-cabeçalho a:link,#area-cabeçalho a:visited{
+	color: #F8F8FF;
+	padding: 8px 12px;
+}
+
+#area-cabeçalho a:hover{
+	color: #FFA500;
+	background-color: #F8F8FF;
+	text-decoration: none;
+}
+
+
+/*
+****Layout*****/
+
+#area-cabeçalho{
+	background-color: #FFA500;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	padding: 10px;/*afastar menu do logo*/
+}
+
+#area-principal{
+    /*background-color: white;era so pra ter a nocao de espaço*/
+    width: 920px;
+    margin: 0px auto; /*0 sao cima e baixo e auto centraliza e se ajusta a medida q mudo o tamanho da tela*/
+    padding: 15px;
+}
+
+
+#area-postagens{
+	width: 660px;
+	float: left;
+
+}
+/*reapre q a soma das larguras da 900px os 20 px q falta fica no espaço entre a area de postagens e o menu lateral*/
+#menu-lateral{
+    width: 240px;
+    float: right;
+
+}
+
+.postagem{
+	padding: 15px;
+	margin-bottom: 20px;/*afastar do rodape*/
+	background-color: white;
+}
+
+.conteudo-lateral{
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#rodape{
+	clear: both;/*para remover o fluxo dos ele flutuantes acima..*/
+	text-align: center;
+	background-color: #CCC;
+	padding: 15px;
+}
+
+/*
+***********formataçoes gerais**************/
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+
+}
+
+h2{
+	color: #FFA500;
+}
+
+h3{
+	color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+.branco{
+	color: grey;
+}
+
+.data-post{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;/*pois é um span e n ta em forma de bloco*/ 
+}
+
