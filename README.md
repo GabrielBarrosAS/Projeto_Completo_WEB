@@ -21,12 +21,13 @@
 - 6.2 Clique no arquivo ```node_modules.rar``` e extraia ou copie os arquivos para a pasta ```front-end```
 ## 7. Executando o banco de dados não relacional mongodb
 - 7.1 Inicie o [DOCKER](https://www.docker.com/) em sua máquina
-- 7.2 Na primeira vez que for rodar o projeto e após o docker esteja executando, realize os seguintes comando em seu termial ```docker pull mongo```  e  ```docker run mongo --name mongodb -p 27017:27017 -d mongo```
+- 7.2 Na primeira vez que for rodar o projeto e após o docker esteja executando, realize os seguintes comando em seu termial ```docker pull mongo```  e  ```docker run --name mongodb -p 27017:27017 -d mongo```
 - 7.3 Nas outras vezes que quiser rodar o projeto, basta iniciar o docker e executar no terminal ```docker start mongodb```
 ## 8. Executando o back-end
 - Abra uma guia do terminal na pasta **~root** e execute ```cd back-end```
 - Execute ```npm run start```
 - Após isso deve ser inserido pelo software [INSOMNIA](https://insomnia.rest/download) um registo de forma manual para poder acessar as funcionalidade do administrador, alguns registros são adicinados de forma manual neste [LINK](https://www.youtube.com/watch?v=wL60_uo6wsw&ab_channel=MauricioMatoso)
+- Ainda será acrescentado informes de como registrar corretamente esse primeiro usuário
 ## 9. Executando o front-end
 - Abra uma guia do terminal na pasta **~root** e execute ```cd front-end```
 - Execute ```npm run start```
